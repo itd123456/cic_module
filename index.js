@@ -25,3 +25,4 @@ mongoose.connect(process.env.MONGODB_CONNECTION_STRING, {
 });
 
 app.use("/user", require("./routes/user.routes"));
+app.use("/api", require("./routes/sofia.routes"));
